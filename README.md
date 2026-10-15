@@ -41,4 +41,4 @@ cd jenkins && docker compose up -d --build   # Jenkins at http://localhost:8081
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 Create a Pipeline job `Kuat_Akberen_DevOps` → *Pipeline script from SCM* → Git →
-`https://github.com/<user>/kuat-akberen-devops.git`, branch `*/main`, script path `Jenkinsfile`.
+`https://github.com/kuatakberen777-design/kuat-akberen-devops.git`, branch `*/main`, script path `Jenkinsfile`.
