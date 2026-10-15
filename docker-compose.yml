@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: kuat-akberen-devops
+    container_name: kuat-akberen-container
+    environment:
+      STUDENT_NAME: Akberen
+      STUDENT_SURNAME: Kuat
+      STUDENT_GROUP: IT2-2313
+      STUDENT_ID: "000000"
+    ports:
+      - "8080:8080"
