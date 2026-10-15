@@ -2,6 +2,6 @@
 FROM jenkins/jenkins:lts
 USER root
 RUN apt-get update \
- && apt-get install -y --no-install-recommends docker.io python3 \
+ && apt-get install -y --no-install-recommends docker-cli python3 \
  && rm -rf /var/lib/apt/lists/*
 USER jenkins
