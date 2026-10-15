@@ -11,7 +11,7 @@ echo
 echo "Name: Akberen"
 echo "Surname: Kuat"
 echo "Group: IT2-2313"
-echo "Student ID: 000000"
+echo "Student ID: IT2-2313"
 echo
 echo "=============================="
 echo "System Information"

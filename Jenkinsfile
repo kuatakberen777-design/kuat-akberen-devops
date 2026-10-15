@@ -5,7 +5,7 @@ pipeline {
         STUDENT_NAME    = 'Akberen'
         STUDENT_SURNAME = 'Kuat'
         STUDENT_GROUP   = 'IT2-2313'
-        STUDENT_ID      = '000000'
+        STUDENT_ID      = 'IT2-2313'
         IMAGE_NAME      = 'kuat-akberen-devops'
         CONTAINER_NAME  = 'kuat-akberen-container'
     }
